@@ -1,0 +1,150 @@
+/* Typography */
+
+html {
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #36393e;
+    color: white;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 2.5em;
+    text-decoration: underline;
+}
+
+p {
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 1.5em;
+}
+
+header {
+    padding: 10px;
+    background-color: #434549;
+}
+
+
+/* Layout */
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    gap: 32px;
+}
+
+#features>div {
+    flex: 1;
+}
+
+img {
+    max-height: 300px;
+    width: auto;
+}
+
+main section {
+    padding: 60px 20px 0 20px;
+}
+
+/* playlist styles */
+
+#playlist table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #f2f1f1;
+    font-size: 14px;
+}
+
+#playlist tr:nth-child(odd) td:nth-child(odd) {
+    background-color: #686e79;
+}
+
+#playlist tr:nth-child(even) td:nth-child(even) {
+    background-color: #686e79;
+}
+
+#playlist th {
+    background-color: #354257;
+    font-size: 2em;
+}
+
+th, td{
+    padding: 15px;
+}
+
+/* list styles */
+
+ol {
+    list-style-type: decimal;
+}
+
+ol, ul {
+    list-style-position: inside;
+}
+
+#features h3 {
+    font-size: 2em;
+}
+
+#features ul, ol, table{
+    height: 200px;
+    border: 1px solid white;
+}
+
+#features td, li {
+    padding: 10px;
+}
+
+/* nav styles */
+nav a:link {
+    background-color: #006266;
+    color: #fff;
+}
+
+nav a:hover {
+    background-color: #1289A7 !important;
+    transition: .3s;
+}
+
+nav a:active {
+    background-color: #1B1464 !important;
+}
+
+nav a:visited {
+    background-color: #006266;
+    color: #fff;
+}
+
+header nav {
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    flex: 1;
+    text-decoration: none;
+    outline: none;
+    padding: 10px;
+    text-align: center;
+    line-height: 3;
+    font-weight: 700;
+    margin: 5px;
+    border-radius: 2px;
+}
+
+footer p {
+    width: 100%;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 1.2em; 
+    background-color: #5758BB;
+}
